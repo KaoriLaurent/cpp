@@ -1,12 +1,13 @@
-NAME = weapon
+NAME = claptrap
 
 CC = c++
 
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRC = main.cpp Weapon.cpp HumanA.cpp HumanB.cpp \
+SRC = main.cpp \
+		ClapTrap.cpp
 
-HEADER = Weapon.hpp HumanA.hpp HumanB.hpp \
+HEADER = ClapTrap.hpp
 
 OBJ = $(SRC:.cpp=.o)
 
@@ -26,4 +27,6 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all re clean fclean
+nclean: all clean
+
+.PHONY: all re clean fclean nclean

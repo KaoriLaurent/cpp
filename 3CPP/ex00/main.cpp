@@ -1,0 +1,68 @@
+#include "ClapTrap.hpp"
+
+int	main(void){
+	ClapTrap didier;
+	ClapTrap michel("Michel");
+
+	didier.attack("Michel");
+	michel.takeDamage(0);
+	michel.attack("ClappedTrapped");
+	didier.takeDamage(0);
+	didier.attack("Michel");
+	michel.takeDamage(0);
+	michel.attack("ClappedTrapped");
+	didier.takeDamage(0);
+	didier.beRepaired(2);
+	michel.beRepaired(3);
+	didier.attack("Michel");
+	michel.takeDamage(0);
+	michel.attack("ClappedTrapped");
+	didier.takeDamage(0);
+	didier.attack("Michel");
+	michel.takeDamage(0);
+	michel.attack("ClappedTrapped");
+	didier.takeDamage(0);
+	didier.beRepaired(4);
+	michel.beRepaired(1);
+	didier.attack("Michel");
+	michel.takeDamage(0);
+	michel.attack("ClappedTrapped");
+	didier.takeDamage(0);
+	didier.attack("Michel");
+	michel.takeDamage(0);
+	michel.attack("ClappedTrapped");
+	didier.takeDamage(0);
+	didier.beRepaired(1);
+	michel.beRepaired(1);
+	didier.attack("Michel");
+	michel.takeDamage(0);
+	michel.attack("ClappedTrapped");
+	didier.takeDamage(0);
+	didier.attack("Michel");
+	michel.takeDamage(0);
+	michel.attack("ClappedTrapped");
+	didier.takeDamage(0);
+	didier.beRepaired(2);
+	michel.beRepaired(3);
+	didier.attack("Michel");
+	michel.takeDamage(0);
+	michel.attack("ClappedTrapped");
+	didier.takeDamage(0);
+	didier.attack("Michel");
+	michel.takeDamage(0);
+	michel.attack("ClappedTrapped");
+	didier.takeDamage(0);
+	didier.beRepaired(4);
+	michel.beRepaired(1);
+	didier.attack("Michel");
+	michel.takeDamage(0);
+	michel.attack("ClappedTrapped");
+	didier.takeDamage(0);
+	didier.attack("Michel");
+	michel.takeDamage(0);
+	michel.attack("ClappedTrapped");
+	didier.takeDamage(0);
+	didier.beRepaired(1);
+	michel.beRepaired(1);
+	return 0;
+}
