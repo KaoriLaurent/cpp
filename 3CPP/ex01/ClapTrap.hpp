@@ -15,7 +15,7 @@ class ClapTrap{
 		ClapTrap(const std::string name);
 		ClapTrap(const ClapTrap& copy);
 	//Destructors
-		virtual ~ClapTrap();
+		~ClapTrap();
 	//Overloads
 		ClapTrap&	operator=(const ClapTrap& rhs);
 	//Methods

@@ -1,13 +1,15 @@
-NAME = claptrap
+NAME = scavtrap
 
 CC = c++
 
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
 SRC = main.cpp \
-		ClapTrap.cpp
+		ClapTrap.cpp \
+		ScavTrap.cpp
 
-HEADER = ClapTrap.hpp
+HEADER = ClapTrap.hpp \
+			ScavTrap.hpp
 
 OBJ = $(SRC:.cpp=.o)
 
