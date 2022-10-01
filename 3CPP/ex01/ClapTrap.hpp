@@ -3,7 +3,7 @@
 # include <iostream>
 
 class ClapTrap{
-	private:
+	protected:
 	//Attributes
 		std::string		_name;
 		unsigned int	_health;
@@ -15,7 +15,7 @@ class ClapTrap{
 		ClapTrap(const std::string name);
 		ClapTrap(const ClapTrap& copy);
 	//Destructors
-		~ClapTrap();
+		virtual	~ClapTrap();
 	//Overloads
 		ClapTrap&	operator=(const ClapTrap& rhs);
 	//Methods
